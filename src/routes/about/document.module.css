@@ -4,6 +4,18 @@
   font-weight: 900;
   line-height: 1.1;
   margin-top: 1.7rem;
-  margin-bottom: 2.4rem;  
+  margin-bottom: 2.4rem;
   text-rendering: optimizeLegibility;
+}
+
+/* Inline code */
+.Document :not(pre) > code {
+  border-radius: .3em;
+  background: var(--primary-color-light-trans);
+  color: #1a1a1a;
+  padding: 0.3em 0.5em 0.3em;
+  margin: 0 -.2em;
+  white-space: normal;
+  font-size: inherit;
+  font-family: inherit;
 }
