@@ -1,6 +1,6 @@
 export default {
   title: `It began to rain`,
-  tags: ['gpt-3', 'rain'],
+  tags: ['rain', 'fiction', 'fish', 'personification'],
   spoiler: "The boy and the hut",
   getContent: () => import('./document.mdx'),
 }
