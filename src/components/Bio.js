@@ -3,7 +3,7 @@ import styles from './Bio.module.css'
 
 function Bio(props) {
   const imageIndex = Math.round(Math.random() * 16);
-  const photoURL = `https://placekitten.com/56/56?image=${imageIndex}`;
+  const photoURL = `/jasper.jpg`;
 
   return (
     <div className={`
