@@ -4,3 +4,5 @@ node_modules
 build
 *.log
 public/.DS_Store
+.DS_Store
+crew/*
